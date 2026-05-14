@@ -154,6 +154,11 @@ p {
   transform: translateY(1px);
 }
 
+.btn:focus-visible {
+  outline: 3px solid rgba(191, 127, 115, 0.35);
+  outline-offset: 4px;
+}
+
 .split {
   display: grid;
   gap: 20px;
